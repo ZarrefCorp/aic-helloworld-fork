@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webpage
-        image: webpage:latest
+        image: localhost/webpage:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 80
