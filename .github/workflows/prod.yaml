@@ -1,14 +1,14 @@
 # This is a basic workflow to help you get started with Actions
 
-name: DESENV-CI
+name: PROD-CI
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "desenv" ]
+    branches: [ "prod" ]
   pull_request:
-    branches: [ "desenv" ]
+    branches: [ "prod" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -51,4 +51,4 @@ jobs:
 
       # Runs a single command using the runners shell
         - name: Deploy
-          run: echo Deploy bem-sucedido no ambiente de desenvolvimento!
+          run: echo Deploy bem-sucedido no ambiente de produção!
