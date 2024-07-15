@@ -13,8 +13,8 @@ spec:
         app: webpage
     spec:
       containers:
-      - name: webpage
-        image: localhost/webpage:latest
-        imagePullPolicy: Never
-        ports:
-        - containerPort: 80
+        - name: webpage
+          image: webpage:3.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
