@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webpage
-          image: webpage:1.3
+          image: webpage:1.1
           imagePullPolicy: Never
           ports:
             - containerPort: 80
